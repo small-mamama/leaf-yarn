@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 検索結果に表示されるタイトル・説明 -->
+  <title>Leaf | handmade crochet</title>
+  <meta
+    name="description"
+    content="手編みの作品、マルシェ出店情報、超初心者向けかぎ針編み教室をご紹介するハンドメイドサイトです。"
+  >
+
+  <!-- SNSでシェアした時の表示用（公開時にURLや画像を変更） -->
+  <meta property="og:title" content="Leaf | handmade crochet">
+  <meta property="og:description" content="手編みの作品と、編み物を楽しむ時間を。">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- =========================
+       HEADER
+  ========================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="トップへ">Leaf</a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-label="メニューを開く"
+        aria-expanded="false"
+        aria-controls="global-nav"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="global-nav" class="global-nav">
+        <a href="#about">ABOUT</a>
+        <a href="#items">ITEMS</a>
+        <a href="#market">MARCHE</a>
+        <a href="#lesson">LESSON</a>
+        <a href="#instagram">INSTAGRAM</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================
+         HERO
+    ========================== -->
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">HANDMADE CROCHET</p>
+          <h1>
+            日常に、<br>
+            ちょっとした<br>
+            <span class="no-wrap">手編みの彩りを。</span>
+          </h1>
+          <p class="hero-text">
+            ひとつひとつ手編みで制作しています。<br>
+            作品の販売だけでなく、マルシェや編み物教室も不定期で開催中です。
+          </p>
+
+          <div class="button-row">
+            <!-- ↓ BASEのショップURLに変更 -->
+            <a
+              class="button button-primary"
+              href="https://example.com/base-shop"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ONLINE SHOP
+            </a>
+
+            <a class="button button-secondary" href="#items">
+              作品を見る
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="images/main.jpeg"
+            alt="手編み作品のイメージ画像"
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         ABOUT
+    ========================== -->
+    <section id="about" class="section">
+      <div class="container narrow">
+        <p class="section-label">ABOUT</p>
+        <h2>手編みを、もっと身近に。</h2>
+        <p class="lead">
+          Leafでは、毎日の中で気軽に使える編み物作品を制作しています。
+        </p>
+        <p>
+          新しい作品や制作中の様子はInstagramで随時更新中。<br>
+          マルシェでは、実際に作品を手に取ってご覧いただけます。
+        </p>
+      </div>
+    </section>
+
+    <!-- =========================
+         ITEMS
+    ========================== -->
+    <section id="items" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">ITEMS</p>
+            <h2>作品</h2>
+          </div>
+          <p>購入はBASEのオンラインショップから。</p>
+        </div>
+
+        <div class="item-grid">
+          <article class="item-card">
+            <img src="images/gama.jpg" alt="がま口ポーチ"">
+            <div class="item-card-body">
+              <p class="item-category">POUCH</p>
+              <h3>がま口ポーチ</h3>
+              <p>小銭や小物入れにピッタリ♪</p>
+              <a href="https://example.com/base-shop" target="_blank" rel="noopener noreferrer">
+                BASEで見る →
+              </a>
+            </div>
+          </article>
+
+          <article class="item-card">
+            <img src="images/flowerkey.jpg" alt="お花キーホルダー">
+            <div class="item-card-body">
+              <p class="item-category">GOODS</p>
+              <h3>お花キーホルダー</h3>
+              <p>推しカラーにもおすすめ☆彡</p>
+              <a href="https://example.com/base-shop" target="_blank" rel="noopener noreferrer">
+                BASEで見る →
+              </a>
+            </div>
+          </article>
+
+          <article class="item-card">
+            <img src="images/coaster.jpg" alt="アニマルコースター">
+            <div class="item-card-body">
+              <p class="item-category">HOME</p>
+              <h3>アニマルコースター</h3>
+              <p>プレゼントにも喜ばれる小さな動物園=^_^=</p>
+              <a href="https://example.com/base-shop" target="_blank" rel="noopener noreferrer">
+                BASEで見る →
+              </a>
+            </div>
+          </article>
+
+          <article class="item-card">
+            <img src="https://placehold.co/700x700/efefef/777777?text=ITEM+04" alt="商品A">
+            <div class="item-card-body">
+              <p class="item-category">HOME</p>
+              <h3>商品A</h3>
+              <p>説明文</p>
+              <a href="https://example.com/base-shop" target="_blank" rel="noopener noreferrer">
+                BASEで見る →
+              </a>
+            </div>
+          </article>
+
+          <article class="item-card">
+            <img src="https://placehold.co/700x700/eaeaea/777777?text=ITEM+05" alt="商品B">
+            <div class="item-card-body">
+              <p class="item-category">KIDS</p>
+              <h3>商品B</h3>
+              <p>説明文</p>
+              <a href="https://example.com/base-shop" target="_blank" rel="noopener noreferrer">
+                BASEで見る →
+              </a>
+            </div>
+          </article>
+
+          <article class="item-card">
+            <img src="https://placehold.co/700x700/f3f3f3/777777?text=ITEM+06" alt="商品C">
+            <div class="item-card-body">
+              <p class="item-category">OTHER</p>
+              <h3>商品C</h3>
+              <p>説明文</p>
+              <a href="https://example.com/base-shop" target="_blank" rel="noopener noreferrer">
+                BASEで見る →
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="center">
+          <a
+            class="button button-primary"
+            href="https://example.com/base-shop"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            BASEですべての商品を見る
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         MARCHE
+    ========================== -->
+    <section id="market" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">MARCHE</p>
+            <h2>マルシェ出店情報</h2>
+          </div>
+          <p>実際に作品を手に取ってご覧いただけます。</p>
+        </div>
+
+        <div class="event-list">
+          <!-- 開催予定が決まったらこのカードを複製して編集 -->
+          <article class="event-card">
+            <div class="event-date">
+              <span>NEXT</span>
+              <strong>COMING<br>SOON</strong>
+            </div>
+            <div class="event-detail">
+              <h3>次回の出店情報</h3>
+              <p>
+                開催日・会場が決まり次第、こちらとInstagramでお知らせします。
+              </p>
+              <dl class="event-meta">
+                <div>
+                  <dt>DATE</dt>
+                  <dd>準備中</dd>
+                </div>
+                <div>
+                  <dt>PLACE</dt>
+                  <dd>準備中</dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         LESSON
+    ========================== -->
+    <section id="lesson" class="section lesson-section">
+      <div class="container lesson-grid">
+        <div class="lesson-image">
+          <img
+            src="https://placehold.co/900x760/eeeeee/777777?text=CROCHET+LESSON"
+            alt="編み物教室のダミー画像"
+          >
+        </div>
+
+        <div class="lesson-copy">
+          <p class="section-label">CROCHET LESSON</p>
+          <h2>初心者向け<br>かぎ針編み教室</h2>
+
+          <p class="lead">
+            「かぎ針を持ったことがない」くらいの方を対象にした、
+            少人数の編み物教室を不定期で開催予定です。
+          </p>
+
+          <ul class="lesson-points">
+            <li>
+              <span>01</span>
+              <div>
+                <strong>超初心者向け</strong>
+                <p>かぎ針や糸の持ち方からゆっくり説明します。</p>
+              </div>
+            </li>
+            <li>
+              <span>02</span>
+              <div>
+                <strong>2時間程度</strong>
+                <p>小さな作品を完成させることを目標に進めます。</p>
+              </div>
+            </li>
+            <li>
+              <span>03</span>
+              <div>
+                <strong>レンタルスペースで開催</strong>
+                <p>開催場所・日時・参加費は、その都度お知らせします。</p>
+              </div>
+            </li>
+          </ul>
+
+          <!-- ↓ InstagramのURLに変更 -->
+          <a
+            class="button button-secondary"
+            href="https://instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            開催情報をInstagramで確認
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         INSTAGRAM
+    ========================== -->
+    <section id="instagram" class="section section-alt">
+      <div class="container">
+        <div class="instagram-header">
+          <div>
+            <p class="section-label">INSTAGRAM</p>
+            <h2>制作の様子や新作を更新しています。</h2>
+          </div>
+
+          <!-- ↓ InstagramのURL・アカウント名に変更 -->
+          <a
+            class="text-link"
+            href="https://instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @your_account →
+          </a>
+        </div>
+
+        <!--
+          Instagram投稿の自動埋め込みは後から追加可能。
+          最初はお気に入りの投稿画像を手動で差し替える方が簡単です。
+        -->
+        <div class="instagram-grid">
+          <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://placehold.co/600x600/eeeeee/777777?text=Instagram+01" alt="Instagram投稿ダミー画像1">
+          </a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://placehold.co/600x600/e9e9e9/777777?text=Instagram+02" alt="Instagram投稿ダミー画像2">
+          </a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://placehold.co/600x600/f1f1f1/777777?text=Instagram+03" alt="Instagram投稿ダミー画像3">
+          </a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://placehold.co/600x600/ededed/777777?text=Instagram+04" alt="Instagram投稿ダミー画像4">
+          </a>
+        </div>
+
+        <div class="center">
+          <a
+            class="button button-primary"
+            href="https://instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagramを見る
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-logo">Leaf</p>
+        <p class="footer-copy">handmade crochet</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#items">ITEMS</a>
+        <a href="#market">MARCHE</a>
+        <a href="#lesson">LESSON</a>
+        <a href="https://example.com/base-shop" target="_blank" rel="noopener noreferrer">BASE</a>
+        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+
+    <div class="container copyright">
+      <small>© <span id="current-year"></span> Leaf. All Rights Reserved.</small>
+    </div>
+  </footer>
+</body>
+</html>
